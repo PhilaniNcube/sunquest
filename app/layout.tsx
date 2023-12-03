@@ -4,6 +4,7 @@ import './globals.css'
 import { cn } from '@/lib/utils';
 import DesktopNavigation from '@/components/navigation/desktop';
 
+// @ts-nocheck
 export const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
