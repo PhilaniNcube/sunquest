@@ -27,7 +27,7 @@ const SigenergDescriotion = () => {
           <div className="flex flex-col space-y-2 bg-teal-800 p-4 rounded-md text-white">
             <span className="flex gap-1 items-center">
               <h3 className="text-xl font-medium">Storage Only </h3>
-              <Separator orientation="vertical" className="h-6" />
+
               <BatteryCharging className="" />
               <UtilityPole className="" />
             </span>
@@ -43,7 +43,7 @@ const SigenergDescriotion = () => {
           <div className="flex flex-col space-y-2 bg-teal-800 p-4 rounded-md text-white">
             <span className="flex gap-1 items-center">
               <h3 className="text-xl font-medium">Solar + Storage</h3>
-              <Separator orientation="vertical" className="h-6" />
+
               <BatteryCharging className="" />
               <UtilityPole className="" />
               <Grid3X3 className="" />
@@ -59,7 +59,7 @@ const SigenergDescriotion = () => {
           <div className="flex flex-col space-y-2 bg-teal-800 p-4 rounded-md text-white">
             <span className="flex gap-1 items-center">
               <h3 className="text-xl font-medium">Backup/Off-grid</h3>
-              <Separator orientation="vertical" className="h-6" />
+
               <BatteryCharging className="" />
               <BatteryCharging className="" />
               <Grid3X3 className="" />
